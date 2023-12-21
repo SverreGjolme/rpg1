@@ -1,0 +1,51 @@
+/* Sett bakgrunnsfargen for hele siden */
+body {
+    background-color: #0a0a23;
+}
+
+/* Stil for tekstområdet */
+#text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* Stil for hovedcontaineren som inneholder spillet */
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 30px auto 0px auto; /* Sentrert på siden med en toppmargen */
+    padding: 10px;
+}
+
+/* Stil for kontrollknapper og statistikkområde */
+#controls, #stats {
+    border: 1px solid #0a0a23; /* Enkelt ramme rundt området */
+    color: #0a0a23;
+    padding: 5px;
+}
+
+/* Stil for informasjon om monsteret (initialt skjult) */
+#monsterStats {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background: #c70d0d;
+    display: none; /* Skjuler elementet som standard */
+}
+
+/* Stil for stat-tekstene i statistikkområdet */
+.stat {
+    padding-right: 10px;
+}
+
+/* Generell stil for knapper */
+button {
+    cursor: pointer; /* Endrer markøren til en hånd når den svever over knappen */
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33); /* Gir en gradienteffekt til bakgrunnen */
+    border: 3px solid #feac32; /* Tykk kant rundt knappen */
+}
